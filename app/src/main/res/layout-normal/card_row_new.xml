@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="292dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:weightSum="1"
+    android:id="@+id/card"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="1">
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="0.60"
+                    android:weightSum="1">
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.05"
+                        android:layout_height="0dp" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.20"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/title"
+                android:textSize="@dimen/text_size_card_recycler_header"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.90"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/time"
+                android:textSize="@dimen/text_size_card_recycler_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.90"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="0.05"
+                android:layout_height="match_parent" />
+
+            <TextView
+
+                android:id="@+id/explanation"
+                android:textSize="@dimen/text_size_card_recycler_expalnation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.94"
+                />
+
+            <View
+
+                android:layout_width="0dp"
+                android:layout_weight="0.01"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+
+
+
+            <!--<View-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="0.05"-->
+                <!--android:layout_height="match_parent" />-->
+
+
+        </LinearLayout>
+
+
+<!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="0.40"-->
+    <!--android:weightSum="1"-->
+    <!--android:background="#ff0000"-->
+    <!--android:orientation="vertical">-->
+
+            <ImageView
+
+                android:id="@+id/imageHa"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.40"/>
+
+</LinearLayout>
+
+
+        </LinearLayout>
+    <!--</LinearLayout>-->
+
+
+</android.support.v7.widget.CardView>

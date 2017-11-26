@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!--<View-->
+    <!--android:background="#ff0000"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="0.25" />-->
+
+        <!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/card"-->
+            <!--android:layout_weight="0.30"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:orientation="vertical"-->
+            <!--android:weightSum="1"-->
+            <!--app:cardUseCompatPadding="true"-->
+            <!--card_view:cardCornerRadius="4dp"-->
+            <!--card_view:cardElevation="4dp">-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="vertical"-->
+                <!--android:weightSum="1">-->
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="1">-->
+
+
+                <!--<LinearLayout-->
+
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="0.65"-->
+                    <!--android:orientation="vertical"-->
+                    <!--android:weightSum="1">-->
+
+                    <!--<View-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:layout_weight="0.05"-->
+                        <!--/>-->
+
+                    <!--<LinearLayout-->
+
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:layout_weight="0.20"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:weightSum="1">-->
+
+                        <!--<View-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="0.05"-->
+                            <!--/>-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/title"-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="0.90"-->
+                            <!--android:textSize="@dimen/text_size_card_recycler_header" />-->
+
+                        <!--<View-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="0.05"-->
+                            <!--/>-->
+
+                    <!--</LinearLayout>-->
+
+                    <!--<View-->
+
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:layout_weight="0.05" />-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:layout_weight="0.05"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:weightSum="1">-->
+
+                        <!--<View-->
+
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="0.05" />-->
+
+                        <!--<TextView-->
+                            <!--android:id="@+id/time"-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="0.90"-->
+                            <!--android:textSize="@dimen/text_size_card_recycler_time" />-->
+
+                        <!--<View-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="0.05" />-->
+
+                    <!--</LinearLayout>-->
+
+                    <!--<View-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:layout_weight="0.05"-->
+                        <!--/>-->
+
+                    <!--<LinearLayout-->
+
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="0dp"-->
+                        <!--android:layout_weight="0.65"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:weightSum="1">-->
+
+                        <!--<View-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="0.05" />-->
+
+                        <!--<TextView-->
+
+                            <!--android:id="@+id/explanation"-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="0.94"-->
+                            <!--android:textSize="@dimen/text_size_card_recycler_expalnation" />-->
+
+                        <!--<View-->
+
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:layout_weight="0.01" />-->
+
+                    <!--</LinearLayout>-->
+
+
+                <!--</LinearLayout>-->
+
+
+                <!--<ImageView-->
+
+                    <!--android:id="@+id/imageHa"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="0.35" />-->
+
+            <!--</LinearLayout>-->
+
+
+            <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical" />
+
+
+    </LinearLayout>
+
+
+
+
+    <!--<LinearLayout-->
+        <!--android:background="#ff00ff"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0.22"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1">-->
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_gravity="center">-->
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="0.1" />-->
+
+     <!---->
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="0.3" />-->
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="0.6" />-->
+
+        <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
+

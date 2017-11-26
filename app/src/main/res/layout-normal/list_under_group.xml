@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/home"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"-->
+    <!--android:test="Home"-->
+    <!--android:testSize="20dp" />-->
+
+    <TextView
+
+        android:id="@+id/btd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:text="Buy the device"
+        android:textSize="@dimen/text_size_pop_up"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        />
+
+    <!--<TextView-->
+    <!--android:id="@+id/ins"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"-->
+    <!--android:test="Instructions"-->
+    <!--android:testSize="20dp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/faq"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"-->
+    <!--android:test="FAQ"-->
+    <!--android:testSize="20dp" />-->
+
+
+</LinearLayout>

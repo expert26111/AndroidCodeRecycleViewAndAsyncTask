@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:weightSum="1">
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/list_item"-->
+        <!--android:paddingTop = "5dp"-->
+        <!--android:text="This is text"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<TextView-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/list_ha"-->
+        <!--android:paddingTop = "5dp"-->
+        <!--android:text="This is text"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:textSize="@dimen/text_size_small_pop_up"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center"-->
+        <!--android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp" />-->
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/list_ha"
+        android:paddingTop = "5dp"
+        android:text="This is text"
+        android:layout_centerInParent="true"
+        android:paddingBottom="5dp"
+        android:textSize="@dimen/text_size_small_pop_up"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>

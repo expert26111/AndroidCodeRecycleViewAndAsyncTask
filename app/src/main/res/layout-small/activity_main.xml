@@ -1,0 +1,127 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:weightSum="1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background ="#FAFAFA"
+        android:weightSum="1">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0585"
+            android:background="#ECEFF1"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:weightSum="1"
+            app:titleTextColor="#55000000"
+            app:contentInsetLeft="80dp"
+            app:contentInsetStart="80dp">
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.03" />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7445"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.05" />
+
+            <FrameLayout
+                android:id="@+id/window"
+                android:layout_width="0dp"
+                android:elevation="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.90">
+
+            </FrameLayout>
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.05" />
+
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05" />
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_weight="0.117"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:titleTextColor="#55000000"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/welcome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/welcome_text"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="#55000000"
+                android:textSize="@dimen/text_size" />
+
+        </android.support.v7.widget.CardView>
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+    <!-- The navigation drawers -->
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="@dimen/width_burger_menu_normal"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+    <ListView
+        android:id="@+id/right_drawer"
+        android:layout_width="@dimen/width_burger_menu_normal"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="#fff"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</android.support.v4.widget.DrawerLayout>

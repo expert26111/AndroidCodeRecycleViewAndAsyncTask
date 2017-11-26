@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_container_padding"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.30"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.40"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05" />
+
+        <ImageView
+            android:id="@+id/image_bluetooth"
+            android:layout_width="0dp"
+            android:layout_weight="0.90"
+            android:layout_height="match_parent"
+            android:src="@drawable/transparent" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05" />
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:layout_gravity="center"
+        android:visibility="visible"
+      />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"/>
+
+
+    <Button
+        android:id="@+id/searching_button"
+        android:textColor="@android:color/white"
+        android:layout_width="511dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/searching"
+        android:textSize="30sp"
+        android:background="@drawable/rounded_button_with_different_colors"/>
+
+
+</LinearLayout>

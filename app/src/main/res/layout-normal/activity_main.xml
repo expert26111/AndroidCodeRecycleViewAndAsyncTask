@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:weightSum="1">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background ="#FAFAFA"
+        android:weightSum="1">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0585"
+            android:background="#ECEFF1"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:weightSum="1"
+            app:titleTextColor="#55000000"
+            app:contentInsetLeft="80dp"
+            app:contentInsetStart="80dp">
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.03" />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8296"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:id="@+id/window"
+                android:layout_width="0dp"
+                android:elevation="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0819"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            app:itemIconTint="@drawable/bottom_state"
+            app:itemTextColor="@drawable/bottom_state"
+            app:menu="@menu/bottom_navigation_items"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

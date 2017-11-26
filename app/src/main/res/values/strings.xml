@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Novipel</string>
+    <string name="cts">Connect to Sens</string>
+    <string name="bs">Buy Sens</string>
+    <string name="lm">Learn More</string>
+    <string name="explanation">To start using the\n
+        app, please\n
+        connect to your\n Sens</string>
+
+    <string name="insidenovipel">
+        Inside is the novipel\n
+       sensor\n
+    </string>
+
+    <string name="welcome_text">
+        Hi, welcome!\n
+       Tab anywhere on the screen to progress
+    </string>
+
+    <string name="welcometo">welcome to</string>
+
+    <string name="ver">vers. 0.1
+    </string>
+
+    <string name="searching">Searching
+        </string>
+
+    <array name="down_text">
+        <item>
+            Welcome
+        </item>
+        <item>
+            Access menu here
+        </item>
+        <item>
+            Press to connect
+        </item>
+        <item>
+
+        </item>
+
+    </array>
+
+    <string name="found_pairing">Found \n Pairing
+        </string>
+
+    <string name="this_is_inter">This is the interface
+        </string>
+
+    <string name="sens">This is Sens
+        </string>
+
+    <string name="inside_sens">Inside is the noviPel\n
+        sensor
+        </string>
+
+    <string name="list_item">This is a text\n
+
+        </string>
+
+    <string name="swipe">Swipe in from either side\n
+        to open the menu
+        </string>
+
+
+    <string name="connect">Connect to \n
+          Sens
+        </string>
+
+    <string name="title_activity_website">Website</string>
+
+    <string name="preferece_file_key">com.example.yoyo.novipel.PREFERENCE_FILE_KEY</string>
+
+    <array name="list_array_burgermenu_left">
+        <item>
+            Home
+        </item>
+        <item>
+            Profile
+        </item>
+        <item>
+            Terms and Conditions
+        </item>
+        <item>
+            Homepage
+        </item>
+    </array>
+
+    <array name="list_array_burgermenu_right">
+        <item>
+            Settings
+        </item>
+        <item>
+            FAQ
+        </item>
+        <item>
+            Feedback
+        </item>
+        <item>
+            Instructions
+        </item>
+    </array>
+
+    <array name="list_array_disconnected">
+        <item>
+            Disconnected
+        </item>
+        <item>
+            Disconnected
+        </item>
+        <item>
+            Disconnected
+        </item>
+
+    </array>
+
+    <string name="skip">Skip</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="items_array_expandable_level_one">
+        <item>Home</item>
+        <item>Buy the device</item>
+        <item>Instructions</item>
+        <item>FAQ</item>
+    </string-array>
+    <string-array name="items_array_expandable_level_one_one_child">
+        <item>Question 1</item>
+        <item>Question 2</item>
+        <item>Question 3</item>
+        <item>Question 4</item>
+        <item>Question 5</item>
+    </string-array>
+    <string-array name="items_array_expandable_level_one_two_child">
+        <item>BTD Child</item>
+    </string-array>
+    <string-array name="items_array_expandable_other_child">
+        <!--<item>Instructions Second Level</item>-->
+        <!--<item>Instructions Second Level</item>-->
+        <!--<item>Instructions Second Level</item>-->
+    </string-array>
+    <string-array name="items_array_expandable_level_three">
+        <item>Stress takes the blame for a lot of \n
+            health issues, and you can add vaginal
+            dryness to the list. If it doesn’t tempor\n
+            arily kill your libido outright, feeling
+            anxious or pressured can make it harder to\n
+            get turned on, says Dweck. Once the stress
+            lifts, your juices should  flowing.</item>
+        <!--<item>Child Level 02</item>-->
+    </string-array>
+
+
+</resources>

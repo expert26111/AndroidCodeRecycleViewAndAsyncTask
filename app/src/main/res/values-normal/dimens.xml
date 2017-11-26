@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size">22sp</dimen>
+    <dimen name="text_size_up">18sp</dimen>
+    <dimen name="text_size_next">20sp</dimen>
+
+
+
+    <dimen name="text_size_card_recycler_header">20sp</dimen>
+    <dimen name="text_size_card_recycler_time">10sp</dimen>
+    <dimen name="text_size_card_recycler_expalnation">15sp</dimen>
+
+</resources>
